@@ -31,6 +31,12 @@ int main(){
 	if(entrada<20){
 		cout << linha[enter-1];
 	}
+	if(entrada>20 && entrada < 100){
+		cout << linha[enter-1];
+		if(enter%10!=0){
+			cout << "e " << linha[enter-enter]
+		}
+	}
 	//FUNÇÕES DE JUNÇÃO
 	
 	}
