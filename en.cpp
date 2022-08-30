@@ -10,6 +10,7 @@ int main(){
 	int cont = 0;
 	int contl = 0;
 	float entrada;
+	int enter;
 	ifstream arq1 ("extenso.txt");
 	
 	if(arq1.is_open()){
@@ -26,7 +27,10 @@ int main(){
 	cout << "Insira o valor que você deseja ver em extenso" << endl;
 	cin >> entrada;
 	cout << endl;
-	if()
+	enter = int(entrada);
+	if(entrada<20){
+		cout << linha[enter-1];
+	}
 	//FUNÇÕES DE JUNÇÃO
 	
 	}
